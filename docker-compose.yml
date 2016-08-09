@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  jenkins:
+    image: ictu/jenkins:latest
+    ports:
+      - 8080:8080
+    environment:
+      - "LDAP_SERVER=1.2.3.4:389"
+      - "LDAP_ROOT_DN=dc=example,dc=com"
+      - "LDAP_USER_SEARCH_BASE=ou=innovation,o=MyCompany"
+      - "LDAP_GROUP_SEARCH_BASE=ou=innovation,o=MyCompany"
+      - "LDAP_MANAGER_DN=cn=Manager,dc=example,dc=com"
+      - "LDAP_MANAGER_PWD=MyPasswordHere"
+      - "LDAP_DISPLAY_NAME_ATTRIBUTE_NAME=cn"
