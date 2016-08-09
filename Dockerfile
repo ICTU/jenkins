@@ -8,7 +8,7 @@ ENV LDAP_SERVER= \
     LDAP_USER_SEARCH_BASE= \
     LDAP_GROUP_SEARCH_BASE= \
     LDAP_MANAGER_DN= \
-    LDAP_MANAGER_PWD_HASH= \
+    LDAP_MANAGER_PWD= \
     LDAP_DISPLAY_NAME_ATTRIBUTE_NAME=
 
 RUN /usr/local/bin/plugins.sh /plugins.txt
