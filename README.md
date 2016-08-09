@@ -25,5 +25,5 @@ When starting an instance of this image the LDAP configuration can be passed thr
           - "LDAP_USER_SEARCH_BASE=ou=employees,o=myCompany"
           - "LDAP_GROUP_SEARCH_BASE=ou=employees,o=myCompany"
           - "LDAP_MANAGER_DN=cn=Manager,dc=ictu,dc=nl"
-          - "LDAP_MANAGER_PWD_HASH=MyHashedPwd"
+          - "LDAP_MANAGER_PWD=MyPwd"
           - "LDAP_DISPLAY_NAME_ATTRIBUTE_NAME=cn"
