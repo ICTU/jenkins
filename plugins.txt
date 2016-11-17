@@ -6,6 +6,7 @@ build-timeout
 cloudbees-folder
 credentials-binding
 credentials
+display-url-api
 durable-task
 email-ext
 external-monitor-job
@@ -33,7 +34,10 @@ pipeline-input-step
 pipeline-rest-api
 pipeline-stage-step
 pipeline-stage-view
+pipeline-milestone-step
+pipeline-graph-analysis
 plain-credentials
+resource-disposer
 scm-api
 script-security
 ssh-credentials
