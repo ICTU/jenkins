@@ -9,6 +9,7 @@ cloudbees-folder
 credentials-binding
 credentials
 display-url-api
+docker-commons
 docker-workflow
 durable-task
 email-ext

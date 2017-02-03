@@ -11,7 +11,7 @@ ENV LDAP_SERVER= \
     LDAP_MANAGER_PWD= \
     LDAP_DISPLAY_NAME_ATTRIBUTE_NAME=
 
-RUN /usr/local/bin/plugins.sh /plugins.txt
+RUN /usr/local/bin/install-plugins.sh /plugins.txt
 
 COPY start-jenkins.sh /start-jenkins.sh
 
