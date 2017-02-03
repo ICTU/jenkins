@@ -1,6 +1,7 @@
 ace-editor
 antisamy-markup-formatter
 ant
+ansicolor
 branch-api
 build-timeout
 cloudbees-folder
@@ -17,8 +18,10 @@ github
 github-organization-folder
 git
 git-server
+gitlab-plugin
 gradle
 handlebars
+htmlpublisher
 icon-shim
 jquery-detached
 junit
@@ -36,12 +39,14 @@ pipeline-stage-step
 pipeline-stage-view
 pipeline-milestone-step
 pipeline-graph-analysis
+pipeline-utility-steps
 plain-credentials
 resource-disposer
 scm-api
 script-security
 ssh-credentials
 ssh-slaves
+ssh-agent
 structs
 subversion
 timestamper
