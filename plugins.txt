@@ -5,6 +5,7 @@ ansicolor
 branch-api
 build-timeout
 bouncycastle-api
+config-file-provider
 cloudbees-folder
 credentials-binding
 credentials
@@ -34,6 +35,7 @@ mapdb-api
 matrix-auth
 matrix-project
 momentjs
+nodejs
 pam-auth
 pipeline-build-step
 pipeline-input-step
