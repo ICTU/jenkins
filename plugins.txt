@@ -4,6 +4,7 @@ ant
 ansicolor
 branch-api
 build-timeout
+bouncycastle-api
 cloudbees-folder
 credentials-binding
 credentials
@@ -40,6 +41,7 @@ pipeline-stage-view
 pipeline-milestone-step
 pipeline-graph-analysis
 pipeline-utility-steps
+pipeline-model-definition
 plain-credentials
 resource-disposer
 scm-api
