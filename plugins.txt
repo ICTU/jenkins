@@ -9,6 +9,7 @@ cloudbees-folder
 credentials-binding
 credentials
 display-url-api
+docker-workflow
 durable-task
 email-ext
 external-monitor-job
@@ -36,11 +37,14 @@ pam-auth
 pipeline-build-step
 pipeline-input-step
 pipeline-rest-api
+pipeline-model-api
 pipeline-stage-step
 pipeline-stage-view
 pipeline-milestone-step
 pipeline-graph-analysis
 pipeline-utility-steps
+pipeline-stage-tags-metadata
+pipeline-model-declarative-agent
 pipeline-model-definition
 plain-credentials
 resource-disposer
