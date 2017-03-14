@@ -1,4 +1,4 @@
-FROM jenkins:2.32.2-alpine
+FROM jenkins:2.32.3-alpine
 
 COPY plugins.txt /plugins.txt
 COPY config.xml /usr/share/jenkins/ref/config.xml
