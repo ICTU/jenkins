@@ -18,7 +18,7 @@ When starting an instance of this image the LDAP configuration can be passed thr
     version: '2'
     services:
       jenkins:
-        image: ictu/jenkins:2.7.1-alpine
+        image: ictu/jenkins:2.46.2-alpine
         environment:
           - "LDAP_SERVER=1.2.3.4:389"
           - "LDAP_ROOT_DN=dc=example,dc=com"
