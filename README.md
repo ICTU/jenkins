@@ -1,9 +1,11 @@
-Jenkins
+# Jenkins
+
 ================
 
 Customized Jenkins image based on the official [Jenkins](https://hub.docker.com/r/_/jenkins/) docker image.
 
 The following has been updated/modified:
+
 * Pre-installed plugins
 * LDAP authentication out of the box and configurable at runtime
 
@@ -14,11 +16,11 @@ This image comes with plugins pre-installed. A list of these plugins can be foun
 ## LDAP config
 
 When starting an instance of this image the LDAP configuration can be passed through predefined environment variables. An example compose configuration is show below.
-  
+
     version: '2'
     services:
       jenkins:
-        image: ictu/jenkins:2.46.2-alpine
+        image: ictu/jenkins:latest
         environment:
           - "LDAP_SERVER=1.2.3.4:389"
           - "LDAP_ROOT_DN=dc=example,dc=com"
